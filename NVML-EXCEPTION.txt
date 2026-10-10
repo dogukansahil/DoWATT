@@ -1,0 +1,14 @@
+DoWATT NVML linking exception 1.0
+
+Copyright (c) 2026 Dogukan Sahil
+
+As an additional permission under section 7 of the GNU General Public License,
+version 3, the copyright holder permits you to link or combine this Program
+with the NVIDIA Management Library (NVML), and to convey the resulting work.
+The terms of GNU GPL version 3 continue to apply to the Program's source code
+and to all other parts of the covered work. NVML remains subject to its own
+license terms; this exception grants no right to redistribute NVIDIA binaries.
+
+The DoWATT release does not include NVML, NVIDIA drivers, or NVIDIA SDK files.
+NVML is discovered from the user's existing driver installation at runtime.
+You may remove this additional permission from your modified version.

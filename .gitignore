@@ -1,0 +1,10 @@
+/build/
+*.obj
+*.res
+*.lib
+*.pdb
+*.def
+*.log
+diagnostics*.json
+.env
+.env.*

@@ -1,0 +1,31 @@
+#include <windows.h>
+#include <version.h>
+101 ICON "../assets/DoWATT.ico"
+1 RT_MANIFEST "DoWATT.manifest"
+1 VERSIONINFO
+FILEVERSION DoWATT_VERSION_NUM
+PRODUCTVERSION DoWATT_VERSION_NUM
+FILEFLAGSMASK 0x3fL
+FILEFLAGS 0
+FILEOS VOS_NT_WINDOWS32
+FILETYPE VFT_APP
+FILESUBTYPE 0
+BEGIN
+ BLOCK "StringFileInfo"
+ BEGIN
+  BLOCK "040904b0"
+  BEGIN
+   VALUE "FileDescription", "DoWATT - minimal RAM and verified system power overlay"
+   VALUE "FileVersion", DoWATT_VERSION_A
+   VALUE "InternalName", "DoWATT"
+   VALUE "OriginalFilename", "DoWATT.exe"
+   VALUE "ProductName", "DoWATT"
+   VALUE "ProductVersion", DoWATT_VERSION_A
+   VALUE "LegalCopyright", "Copyright (c) 2026 Dogukan Sahil. GNU GPL v3.0 with NVML linking permission."
+  END
+ END
+ BLOCK "VarFileInfo"
+ BEGIN
+  VALUE "Translation", 0x409, 1200
+ END
+END
